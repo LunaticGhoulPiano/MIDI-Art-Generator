@@ -15,3 +15,6 @@ Generate MIDI art by inputing prompts.
 ## TODO
 - Train
 - Implementation
+
+## Tools
+- MIDI-Visualizer: https://github.com/Gawehold/MIDIFall
