@@ -2,7 +2,7 @@
 Generate MIDI art by inputing prompts.
 
 ## Description
-- 本repo是高等資料探勘課程的期末project，目的為透過使用者prompt產生圖像後，將圖像轉換為MIDI art。
+- 本repo是生成式AI基礎與應用課程的期末project，目的為透過使用者prompt產生圖像後，將圖像轉換為MIDI art。
 - 由於課程要求需要有資料集，並且MIDI art在線條愈明顯時愈易於辨識，因此使用幾何圖型的資料集進行訓練。
 - 應使用[此LoRA訓練教學](https://techtactician.com/how-to-train-stable-diffusion-lora-models/)，並且由於BLIP需要每一個圖像都有對應的描述文本，因此[此RGB幾何圖形資料集](https://www.kaggle.com/datasets/dineshpiyasamara/geometric-shapes-dataset)與[此黑白幾何圖形資料集](https://www.kaggle.com/datasets/shuvokumarbasak4004/geometric-shapes-new-and-update-dataset)中，每個圖像都應該有一個對應的txt，此txt的描述文字應為```This is a {圖形名稱，使用所在資料夾之名稱}.```。
 - 如果時間太趕就先跑黑白的，時間夠就看是要兩個字訓練或是混合訓練。
