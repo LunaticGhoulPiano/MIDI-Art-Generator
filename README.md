@@ -25,9 +25,7 @@ Generate MIDI art by inputing prompts.
 - Image-to-ASCII: https://github.com/vietnh1009/ASCII-generator
 
 ## Datasets
-- Black-and-White geometric shapes: https://www.kaggle.com/datasets/shuvokumarbasak4004/geometric-shapes-new-and-update-dataset
-- RGB geometric shapes: https://www.kaggle.com/datasets/dineshpiyasamara/geometric-shapes-dataset
-- Anime screenshots: https://www.kaggle.com/datasets/diraizel/anime-images-dataset
+- Self-labeled dataset: [MIDI_Art](https://huggingface.co/datasets/LunaticGhoulPiano/MIDI_Art)
 
 ## TODO
 - Train
