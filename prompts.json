@@ -1,0 +1,58 @@
+{
+    "Cat": {
+        "1": {
+            "positive": "MIDI art, cat, cute",
+            "negative": "dog"
+        },
+        "2": {
+            "positive": "MIDI art, cute cat, in the middle, centered composition, sharp silhouette, clean outlines, easy-to-distinguish color matching, eighth-note based structure, simplified musical curves, minimal subdivision, music-theory-based arrangement, clear rhythm, symbolic note placement",
+            "negative": "non-cat animal, ambiguous shape, blurry silhouette, unclear rhythm, random note pattern, excessive visual noise, broken structure, distorted cat"
+        },
+        "3": {
+            "positive": "MIDI art, sharp silhouette, clean outlines, high contrast, easy-to-distinguish color matching, clear rhythm structure, musicality-focused layout, eighth-note based design, simplified note curves, minimal visual subdivision, reasonable musical arrangement, note placement based on music theory, balanced composition, visually abstract but musically coherent, structured note flow, cute cat in the middle, center-focused composition, symbolic note placement, abstract music-driven visual form, aesthetic simplicity, harmony between image and sound",
+            "negative": "blurry, messy, chaotic, overly complex shapes, too many tiny notes, sixty-fourth notes, random note placement, unrealistic rhythm, no musical structure, poor note grouping, curve formed with dense note clusters, unnatural note lengths, lack of musicality, excessive visual noise, broken silhouette, distorted cat, cluttered image, inconsistent colors, over-detailed patterns, excessive micro-divisions, too smooth or mathematically perfect curves, unrealistic MIDI layout, no clear motif, visual artifacts, jagged outline, musical nonsense"
+        }
+    },
+    "Crocodile": {
+        "1": {
+            "positive": "MIDI art, cute, crocodile, horizontal",
+            "negative": "fish"
+        },
+        "2": {
+            "positive": "MIDI art, cute crocodile, horizontal layout, centered composition, sharp silhouette, clean outlines, easy-to-distinguish color matching, eighth-note based structure, simplified musical curves, minimal subdivision, music-theory-based arrangement, clear rhythm, symbolic note placement",
+            "negative": "non-crocodile animal, ambiguous shape, blurry silhouette, unclear rhythm, random note pattern, excessive visual noise, broken structure, distorted crocodile"
+        },
+        "3": {
+            "positive": "MIDI art, sharp silhouette, clean outlines, high contrast, easy-to-distinguish color matching, clear rhythm structure, musicality-focused layout, eighth-note based design, simplified note curves, minimal visual subdivision, reasonable musical arrangement, note placement based on music theory, balanced horizontal composition, visually abstract but musically coherent, structured note flow, cute crocodile in side profile, symbolic note placement, abstract music-driven visual form, aesthetic simplicity, harmony between image and sound",
+            "negative": "blurry, messy, chaotic, overly complex shapes, too many tiny notes, sixty-fourth notes, random note placement, unrealistic rhythm, no musical structure, poor note grouping, curve formed with dense note clusters, unnatural note lengths, lack of musicality, excessive visual noise, broken silhouette, distorted crocodile, cluttered image, inconsistent colors, over-detailed patterns, excessive micro-divisions, too smooth or mathematically perfect curves, unrealistic MIDI layout, no clear motif, visual artifacts, jagged outline, musical nonsense"
+        }
+    },
+    "Pikachu": {
+        "1": {
+            "positive": "MIDI art, pokemon, pikachu, cute",
+            "negative": "realistic animal"
+        },
+        "2": {
+            "positive": "MIDI art, cute pikachu, centered composition, chibi style, sharp silhouette, clean outlines, bright yellow dominant color, easy-to-distinguish color matching, eighth-note based structure, simplified musical curves, minimal subdivision, music-theory-based arrangement, clear rhythm, symbolic note placement",
+            "negative": "non-pikachu character, realistic proportions, blurry silhouette, ambiguous shape, unclear rhythm, random note pattern, excessive visual noise, broken structure, distorted pikachu"
+        },
+        "3": {
+            "positive": "MIDI art, sharp silhouette, clean outlines, high contrast, cute chibi-style pikachu, high visual clarity, easy-to-distinguish bright yellow tones, clear rhythm structure, musicality-focused layout, eighth-note based design, simplified note curves, minimal visual subdivision, reasonable musical arrangement, note placement based on music theory, center-focused composition, symbolic note patterns, visually abstract but musically coherent, aesthetic simplicity, structured note flow, harmony between image and sound, expressive pose",
+            "negative": "blurry, messy, overly detailed, photorealistic animal features, chaotic or noisy background, random note placement, sixty-fourth notes, lack of rhythm, distorted silhouette, too many micro-divisions, broken musical structure, poor note grouping, visual clutter, inconsistent colors, unrealistic musical layout, jagged outlines, lack of musicality, distorted pikachu"
+        }
+    },
+    "Adidas": {
+        "1": {
+            "positive": "MIDI art, Adidas, logo, icon, brand design, text",
+            "negative": "no text, animal"
+        },
+        "2": {
+            "positive": "MIDI art, Adidas logo, centered composition, symmetrical layout, brand design focus, bold typography, sharp silhouette, clean outlines, limited color palette, high contrast, eighth-note based structure, simplified geometric curves, minimal subdivision, music-theory-based arrangement, clear rhythm, symbolic note placement, icon-style visual",
+            "negative": "non-Adidas brand, missing text, ambiguous logo, distorted layout, random note pattern, messy structure, blurry logo shape, over-detailed texture, broken silhouette, animal features"
+        },
+        "3": {
+            "positive": "MIDI art, clean and bold Adidas logo, sharp geometric silhouette, minimalistic design, centered and symmetrical composition, limited black-and-white color scheme, strong visual branding, clear rhythmic note layout, eighth-note based visual rhythm, simplified curves and straight lines, music-theory-driven note placement, abstract but coherent logo representation, structured note grid, recognizable brand shape, iconographic clarity, consistent spacing, symbolic representation using notes, harmony between visual identity and sound pattern",
+            "negative": "messy, over-decorated, distorted brand shape, unrecognizable logo, cluttered background, chaotic note layout, sixty-fourth note noise, poor rhythm, broken note grid, color inconsistency, irrelevant patterns, excessive visual noise, lack of branding clarity, realistic objects, organic shapes, animal imagery"
+        }
+    }
+}

@@ -20,7 +20,7 @@ def convert_image(input_path: str, output_path: str, filename: str, threshold: i
                 img = no_bg_bytes.convert("L") # grayscale
             else:
                 img = img.convert("L")
-            
+            img.save(os.path.join(output_path, f"grayscaled_{filename}"))
             # threshold
             arr = np.array(img)
             arr[arr < threshold] = 0
@@ -33,7 +33,7 @@ def convert_image(input_path: str, output_path: str, filename: str, threshold: i
             resized_img = filtered_img.resize((target_width, target_height), Image.LANCZOS)
 
             # save
-            resized_img.save(os.path.join(output_path, f"scaled_{filename}"))
+            resized_img.save(os.path.join(output_path, f"resized_{filename}"))
             resized_arr = np.array(resized_img)
             np.savetxt(f"{output_path}./{filename[:-4]}_88keys.csv", resized_arr, delimiter = ",", fmt = "%d")
             return True
@@ -47,7 +47,7 @@ def generate_midi(input_path: str, output_path: str, filename: str, rmbg: bool =
     if not convert_image(input_path, output_path, filename, threshold, rmbg):
         return
     # read processed image
-    with Image.open(os.path.join(output_path, f"scaled_{filename}")) as img:
+    with Image.open(os.path.join(output_path, f"resized_{filename}")) as img:
         arr = np.array(img)
         width = arr.shape[1]
         height = arr.shape[0]
@@ -110,11 +110,11 @@ def generate_midi(input_path: str, output_path: str, filename: str, rmbg: bool =
     mid_scaled.save(midi_out_path_after)
     print(f"{midi_out_path_after} saved.")
 
-def convert_all(input_path: str = "./Inputs", output_path: str = "./Outputs"):
+def convert_all(input_path: str = "./output", output_path: str = "./Outputs"):
     for filename in os.listdir(input_path):
         generate_midi(input_path, output_path, filename)
 
 if __name__ == "__main__":
-    #convert_all()
-    generate_midi("./Inputs", "./Outputs", "1.png", False)
-    generate_midi("./Inputs", "./Outputs", "2.jpg")
+    convert_all()
+    #generate_midi("./Inputs", "./Outputs", "1_manual.png")
+    #generate_midi("./Inputs", "./Outputs", "2.jpg")
