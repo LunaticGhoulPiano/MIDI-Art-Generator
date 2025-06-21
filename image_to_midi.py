@@ -110,11 +110,9 @@ def generate_midi(input_path: str, output_path: str, filename: str, rmbg: bool =
     mid_scaled.save(midi_out_path_after)
     print(f"{midi_out_path_after} saved.")
 
-def convert_all(input_path: str = "./output", output_path: str = "./Outputs"):
+def convert_all(input_path: str, output_path: str):
     for filename in os.listdir(input_path):
         generate_midi(input_path, output_path, filename)
 
 if __name__ == "__main__":
-    convert_all()
-    #generate_midi("./Inputs", "./Outputs", "1_manual.png")
-    #generate_midi("./Inputs", "./Outputs", "2.jpg")
+    convert_all("./Inputs", "./Outputs")
